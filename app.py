@@ -78,7 +78,7 @@ if page == "📊 Live Telemetry Control":
 
 elif page == "🤳 Citizen AI Intake Module":
     st.markdown("<h2>🤳 Real-time Field Telemetry Intake</h2>", unsafe_allow_html=True)
-    form_col, ai_col = st.columns()
+    form_col, ai_col = st.columns(2)
     
     with form_col:
         with st.form("citizen_form", clear_on_submit=True):
